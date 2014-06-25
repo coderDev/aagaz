@@ -16,7 +16,7 @@ git add -u
 
 git commit
 
-git checkout -b <branch name>
+git checkout -b &lt;branch name&gt;
 
 git push origin <branch name>
 
