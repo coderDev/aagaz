@@ -18,7 +18,7 @@ git commit
 
 git checkout -b &lt;branch name&gt;
 
-git push origin <branch name>
+git push origin &lt;branch name&gt;
 
 => After sending code to GitHub make a Pull Request
 
@@ -30,4 +30,4 @@ How to delete existing branch from remote
 
 git status
 
-git push origin --delete <branch name>
+git push origin --delete &lt;branch name&gt;
