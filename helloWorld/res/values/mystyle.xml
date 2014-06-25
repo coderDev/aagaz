@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="txt_size">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="margin_top">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="txtCode">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="txtCodeTab">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="btnImageButton">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">35dp</item>
+    </style>
+
+    <style name="btnImageFree">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">145dp</item>
+        <item name="android:layout_height">31dp</item>
+    </style>
+
+    <style name="TabText">
+        <item name="android:textColor">@drawable/tab_text_color</item>
+    </style>
+
+    <style name="bannerTitleStyle">
+        <item name="android:textColor">#00529c</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="bannerOfferStyle">
+        <item name="android:textColor">#ff8000</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="bannerContentStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

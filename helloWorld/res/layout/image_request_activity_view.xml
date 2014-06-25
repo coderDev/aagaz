@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp" >
+    
+    <Button
+        android:id="@+id/makeRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Make Request"/>
+    
+      <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgNetwork"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY" >
+    </com.android.volley.toolbox.NetworkImageView>
+    
+    <ImageView
+        android:id="@+id/imageLoader"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+     
+	/>
+</RelativeLayout>

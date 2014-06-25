@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/got_story_header_bg" >
+
+        <TextView
+            android:id="@+id/LocalOfferTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/my_library"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/IssueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@id/LocalOfferTitle"
+            android:layout_marginBottom="9dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/refresh"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout1"
+        android:orientation="vertical" >
+
+        <com.fortysevendeg.swipelistview.SwipeListView
+            android:id="@+id/example_swipe_lv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="#00000000"
+            swipe:swipeBackView="@+id/back"
+            swipe:swipeCloseAllItemsWhenMoveList="true"
+            swipe:swipeDrawableChecked="@color/tab_bg"
+            swipe:swipeDrawableUnchecked="@color/got_story_header_bg"
+            swipe:swipeFrontView="@+id/front"
+            swipe:swipeMode="both" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/swipe_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_tab_home_a"
+            android:gravity="center"
+            android:text="@string/swipe_home" />
+
+        <TextView
+            android:id="@+id/swipe_got_a_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_got_story"
+            android:gravity="center"
+            android:text="@string/swipe_got_a_story" />
+
+        <TextView
+            android:id="@+id/swipe_local_offers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_local_offer"
+            android:gravity="center"
+            android:text="@string/swipe_local_offers" />
+
+        <TextView
+            android:id="@+id/swipe_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_feedback"
+            android:gravity="center"
+            android:text="@string/swipe_feedback" />
+    </LinearLayout>
+
+</RelativeLayout>
