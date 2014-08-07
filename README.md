@@ -1,5 +1,11 @@
 Aagaz
 =====
+Starting with GitHub
+
+Git Commands
+
+// add git to folder
+=> git init
 
 ========================================================================
 
